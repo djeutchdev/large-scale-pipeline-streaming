@@ -5,7 +5,6 @@ import java.util._
 import org.apache.kafka.common.security.auth.SecurityProtocol.SASL_PLAINTEXT
 
 object ProducerKafka extends App{
-
   val trace_kafka = LogManager.getLogger(name = "console")
   val props = new Properties()
   props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"")
